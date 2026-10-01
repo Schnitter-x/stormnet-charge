@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <style name="Theme.StormNet" parent="Theme.MaterialComponents.NoActionBar">
         <item name="colorPrimary">#00d4ff</item>
-        <item name="colorPrimaryVariant">#a855f7</item>
+        <item name="colorPrimaryVariant">#0ea5e9</item>
         <item name="colorOnPrimary">#0b0f19</item>
+        <item name="colorSecondary">#a855f7</item>
+        <item name="colorSecondaryVariant">#7c3aed</item>
+        <item name="colorOnSecondary">#ffffff</item>
         <item name="android:statusBarColor">#0b0f19</item>
-        <item name="android:navigationBarColor">#0b0f19</item>
+        <item name="android:navigationBarColor">#0f172a</item>
         <item name="android:windowBackground">#0b0f19</item>
+        <item name="android:textColorPrimary">#eef2ff</item>
+        <item name="android:textColorSecondary">#94a3b8</item>
+        <item name="bottomNavigationStyle">@style/Widget.StormNet.BottomNav</item>
+    </style>
+
+    <style name="Widget.StormNet.BottomNav" parent="Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:background">#0f172a</item>
+        <item name="itemIconTint">@color/bottom_nav_color</item>
+        <item name="itemTextColor">@color/bottom_nav_color</item>
     </style>
 </resources>
