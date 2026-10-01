@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">StormNet Charge</string>
+    <string name="tab_dashboard">الرئيسية</string>
+    <string name="tab_sockets">المقابس</string>
+    <string name="tab_families">العائلات</string>
+    <string name="tab_transactions">المعاملات</string>
+    <string name="tab_settings">الإعدادات</string>
+    <string name="add_family">إضافة عائلة</string>
+    <string name="family_name">اسم العائلة</string>
+    <string name="family_phone">رقم الجوال (اختياري)</string>
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="no_families">لا توجد عائلات بعد\nاضغط + لإضافة عائلة جديدة</string>
+    <string name="coming_soon">قريباً</string>
+    <string name="name_required">الرجاء إدخال اسم العائلة</string>
+    <string name="name_exists">يوجد عائلة بنفس الاسم</string>
 </resources>
